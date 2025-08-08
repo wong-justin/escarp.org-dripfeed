@@ -1,6 +1,7 @@
 name: update feed.xml, maybe
 
 on:
+  workflow_dispatch:  # this line lets me run the action manually
   schedule:
     - cron: '0 0 * * *'  # Runs once a day at midnight UTC
 
