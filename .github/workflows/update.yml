@@ -1,0 +1,33 @@
+name: update feed.xml, maybe
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs once a day at midnight UTC
+
+jobs:
+  run-my-perl-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Perl dependencies
+        run: |
+          sudo cpan -T XML::Atom::Feed DateTime::Format::RFC3339
+
+      - name: Run script.perl
+        run: perl script.perl
+
+      - name: Commit and push changes to feed.xml (if any)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet --exit-code feed.xml; then
+            echo "No changes to feed.xml, skipping commit."
+          else
+            git add feed.xml
+            git commit -m "Update feed.xml with new poem [GitHub Actions]"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
