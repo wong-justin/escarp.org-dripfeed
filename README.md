@@ -1,6 +1,6 @@
-# escarp-drip
+# escarp.org drip feed
 
-A slow-drip feed of escarp.org archives, for random acts of poetry.
+A slow-drip Atom feed of escarp.org archives, for random acts of poetry.
 
 <!-- serendipity; refeed -->
 
@@ -19,5 +19,5 @@ Two-hundred-something total entries. <!-- Loops until the heat-death of GitHub A
 > summer days://
 > 
 > you and the weather/
-> will cool off together./
+> will cool off together./<br>
 > @robertwest7
