@@ -365,7 +365,6 @@ sub generate_feed {
     write_file($FEED_FILE, $xml);
     print STDERR "updated feed:\n";
     print STDERR $feed->as_xml();
-    die;
 }
 
 generate_feed();
