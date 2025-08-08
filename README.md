@@ -12,12 +12,12 @@ Two-hundred-something total entries. <!-- Loops until the heat-death of GitHub A
 
 > Lawnmower//
 > 
-> Angriest herbivore,/
+> Angriest herbivore,/<br>
 > go ahead, roar//
 > 
-> as you graze/
+> as you graze/<br>
 > summer days://
 > 
-> you and the weather/
+> you and the weather/<br>
 > will cool off together./<br>
 > @robertwest7
