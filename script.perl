@@ -75,7 +75,7 @@ my %FEED_METADATA = (
     subtitle => 'nuggets of poetry',
     feed_uri => 'https://github.com/wong-justin/escarp-drip/',
     link => 'https://github.com/wong-justin/escarp-drip/',
-    author_name => 'various tweeters',
+    author_name => 'an old tweet',
 );
 
 sub write_file {
