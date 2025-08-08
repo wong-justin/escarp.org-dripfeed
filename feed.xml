@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>escarp.org drip feed</title>
+  <subtitle>nuggets of poetry</subtitle>
+  <id>https://github.com/wong-justin/escarp-drip/</id>
+  <link/>
+  <author>
+    <name>various tweeters</name>
+  </author>
+  <updated>2025-08-08T20:58:21Z</updated>
+  <entry>
+    <title>a poem for your day</title>
+    <id>https://github.com/wong-justin/escarp-drip/#0</id>
+    <updated>2025-08-08T20:58:21Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Dusk//<br/><br/>In the early/ <br/>evening, brown/<br/>glows/<br/>like neon.  Faces/ <br/>are lost/<br/>in the scuffle/<br/>between light and dark.//<br/>-- @jrcripe</div>
+    </content>
+  </entry>
+</feed>
