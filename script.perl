@@ -4,7 +4,6 @@ use warnings;
 use XML::Atom::Feed;
 use XML::Atom::Entry;
 use XML::Atom::Person;
-use XML::LibXML;
 use DateTime;
 use DateTime::Format::RFC3339;
 srand;
