@@ -4,11 +4,11 @@ A slow-drip Atom feed of escarp.org archives, for random acts of poetry.
 
 <!-- serendipity; refeed -->
 
-Updated throughout the week.
+[Feed](https://raw.githubusercontent.com/wong-justin/escarp.org-dripfeed/refs/heads/main/feed.xml) updated throughout the week.
 
 <!-- Atom feed: (all) or (clean) -->
 
-Two-hundred-something total entries. <!-- Loops until the heat-death of GitHub Actions. -->
+Two-hundred-something total entries. Should keep looping until the heat-death of GitHub Actions.
 
 > Lawnmower//
 > 
