@@ -21,3 +21,9 @@ Two-hundred-something total entries. Should keep looping until the heat-death of
 > you and the weather/<br>
 > will cool off together./<br>
 > @robertwest7
+
+<!-- 
+feed validator: https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fwong-justin.github.io%2Fescarp.org-dripfeed%2Ffeed.xml 
+
+a simple reader UI for testing: https://www.rssrssrssrss.com/
+-->
