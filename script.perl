@@ -322,9 +322,9 @@ sub generate_feed {
     my $then = DateTime::Format::RFC3339->parse_datetime($then_formatted);
     my $delta = $now->delta_days($then);
     my $days_elapsed = $delta->in_units('days');
-    if ($days_elapsed < int(rand(7)) + 1) {
-            # perhaps millisecond inaccuracies will skip a day, but oh well
-            # there's always tomorrow
+    if (($days_elapsed - 7) < (int(rand(14)) + 1)) {
+            # wait between 7 and 21 days
+            # probability distribution is skewed, but good enough
             die "no poem today. enjoy the fresh air outside";
     }
     my $new_index;
