@@ -4,7 +4,7 @@ A slow-drip Atom feed of escarp.org archives, for random acts of poetry.
 
 <!-- serendipity; refeed -->
 
-[Feed](https://raw.githubusercontent.com/wong-justin/escarp.org-dripfeed/refs/heads/main/feed.xml) updated throughout the week.
+[Feed](https://wong-justin.github.io/escarp.org-dripfeed/feed.xml) updated throughout the week.
 
 <!-- Atom feed: (all) or (clean) -->
 

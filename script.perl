@@ -73,8 +73,8 @@ my $FEED_FILE = 'feed.xml';
 my %FEED_METADATA = (
     title => 'escarp.org drip feed',
     subtitle => 'nuggets of poetry',
-    feed_uri => 'https://github.com/wong-justin/escarp-drip/',
-    link => 'https://github.com/wong-justin/escarp-drip/',
+    feed_uri => 'https://wong-justin.github.io/escarp.org-dripfeed/',
+    link => 'https://wong-justin.github.io/escarp.org-dripfeed/feed.xml',
     author_name => 'an old tweet',
 );
 
