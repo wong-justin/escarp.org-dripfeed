@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-use XML::Atom::Feed;
 use XML::Atom::Entry;
+use XML::Atom::Feed;
+use XML::Atom::Link;
 use XML::Atom::Person;
 use DateTime;
 use DateTime::Format::RFC3339;
@@ -342,11 +343,14 @@ sub generate_feed {
     
     my $feed = XML::Atom::Feed->new();
     my $author = XML::Atom::Person->new();
+    my $link = XML::Atom::Link->new();
+    $link->rel('self');
+    $link->href($FEED_METADATA{link});
     $author->name($FEED_METADATA{author_name});
     $feed->title($FEED_METADATA{title});
     $feed->tagline($FEED_METADATA{subtitle});
     $feed->id($FEED_METADATA{feed_uri});
-    $feed->link($FEED_METADATA{link});
+    $feed->add_link($link);
     $feed->author($author);
     $feed->updated($now_formatted);
 
